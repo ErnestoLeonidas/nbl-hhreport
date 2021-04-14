@@ -1,3 +1,3 @@
-# sistemahh
+# Sistema de registro de Horas Hombre
 
-sistema de registro de horas por proyecto
+Primera versión del proyecto para agregar horas
