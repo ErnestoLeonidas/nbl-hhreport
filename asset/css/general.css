@@ -1,0 +1,189 @@
+.navbar{
+    background-color: #022c43 !important;
+    height: 56px;
+} 
+
+.bg-dark{
+    background-color: #022c43 !important;
+}
+
+.col {
+    font-size: 0.8rem;
+}
+
+.container {
+    padding: 0;
+}
+
+.navbar-brand {
+    margin-right: 0px;
+}
+
+.btn-sm {
+    font-size: 0.8rem;
+}
+
+.modal-header  {
+    padding: 0.5rem 1rem;
+}
+
+.modal-body {
+    padding: 0.5rem 1rem;
+}
+
+.modal-footer {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+body {
+    padding: 56px 0px 0px 0px;
+}
+
+.sticky-offset {
+    top: 56px;
+}
+
+#body-row {
+    margin-left:0;
+    margin-right:0;
+}
+#sidebar-container {
+    min-height: 100vh;
+    background-color: #022c43;
+    padding: 0;
+}
+
+/* Sidebar sizes when expanded and expanded */
+.sidebar-expanded {
+    width: 230px;
+}
+.sidebar-collapsed {
+    width: 60px;
+}
+
+/* Menu item*/
+#sidebar-container .list-group a {
+    height: 30px;
+    color: white;
+    font-size: 0.8rem;
+    padding: 3px 20px;
+}
+
+/* Submenu item*/
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+.sidebar-submenu {
+    font-size: 0.8rem;
+}
+
+/* Separators */
+.sidebar-separator-title {
+    background-color: #053f5e;
+    font-size: 0.9rem;
+    height: 35px;
+}
+.sidebar-separator {
+    background-color: #053f5e;
+    height: 25px;
+}
+.logo-separator {
+    background-color: #053f5e;    
+    height: 60px;
+}
+
+/* Closed submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="false"] .submenu-icon::after {
+  content: " \f0d7";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+/* Opened submenu icon */
+#sidebar-container .list-group .list-group-item[aria-expanded="true"] .submenu-icon::after {
+  content: " \f0da";
+  font-family: FontAwesome;
+  display: inline;
+  text-align: right;
+  padding-left: 10px;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-group label {
+    margin-bottom: 0.2rem;
+}
+
+.dropdown-menu {
+    font-size: 0.9rem;
+    max-height: 200px;
+    width: 200px;
+}
+
+.badge {
+    font-size: 1rem !important;
+    line-height: inherit;
+    padding: 8px;
+}
+
+.datepicker-here {
+    width: 100px;
+    font-size: 1rem;
+}
+
+.horas{
+    position: absolute;
+    left: 50%;
+}
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+
+#localidadProyectos{
+    width: 250px;
+}
+
+#mensualDatePicker{
+    width: 150px !important;
+}
+
+.bootstrap-select>.dropdown-toggle .filter-option {
+    width: 100%;
+}

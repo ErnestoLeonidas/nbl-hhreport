@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #022c43;
+  height: 100vh;
+}
+
+.col-center{
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-container.card {
+  max-width: 350px;
+  padding: 40px 40px;
+}
+
+.btn-primary{
+  background-color: #115173;
+}
+
+.card {
+  background-color: #F7F7F7;
+  /* just in case there no content*/
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  /* shadows and rounded borders */
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+:root {
+  --background: rgb(19, 65, 135);
+  --backgroundhover: rgb(45, 85, 180);
+  }
+
+.col-center{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botonmenu2{
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+}
+
+.login-container.login{
+    max-width: 350px;
+    padding: 40px 40px;
+}
+
+.login{
+    background-color: #F7F7F7;
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 100px;
+    display: block;
+    justify-content: center;    
+    align-content: center;
+    flex-direction: column;
+
+
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+}
+  

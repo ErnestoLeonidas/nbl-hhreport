@@ -1,0 +1,134 @@
+<?php
+
+session_start();
+
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+   <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="../asset/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../asset/css/estilos.css">
+
+        <script type="text/javascript" src="../asset/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../asset/js/popper.js"></script>
+        <script type="text/javascript" src="../asset/js/bootstrap.min.js"></script>
+
+        <title>NBL Ingenieria Ltda.</title>
+   </head>
+   <body>
+        <!-- CABECERA -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-4 pt-4" style="text-align:center;height: 120px;">
+                    <img src="../asset/img/logo.png" style="width: 230px;" alt="Logo" >
+                </div> 
+                          
+            </div>
+        </div>
+        <!-- FIN CABECERA -->
+
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg">
+            <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" style="height: 20px" id="collapsibleNavbar">
+                <ul class="navbar-nav bg">
+                    <li class="nav-item">
+                        <a class="bgnav"  href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="bgnav" href="../vista/nuestra-empresa.html">Empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="bgnav" href="../vista/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="bgnav" href="../vista/clientes.html">Clientes</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="bgnav" href="../vista/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="bgnav" href="../controlador/correos.php">Intranet</a>
+                    </li> 
+                </ul>
+            </div>  
+        </nav>
+        <!-- FIN NAVBAR -->
+        <!-- CONTENIDO -->
+        <div class="col-12 text-center pt-3 titulo">
+            <p>Clientes</p>
+        </div>
+        <div id="clientes" class="carousel slide mt-3 mb-5" data-ride="carousel">
+                <ul class="carousel-indicators" >
+                    <li data-target="#clientes" data-slide-to="0" class="active"></li>
+                    <li data-target="#clientes" data-slide-to="1"></li>             
+                </ul>    
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row col-12 col-sm-10 col-center">
+                            <div class="col-12 col-sm-4 col-center clientes">
+                                <img class="clientes-logo pt-4" src="../asset/img/logo-oxiquim.jpg" alt="Logo 1">
+                                <p class="titulo pt-3">OXIQUIM S.A.</p>
+                                <p class="texto">"Habilitación de estanque de almacenamiento para fenol en Terminal Maritimo Escuadron"</p>
+                            </div>
+                            <div class="col-12 col-sm-4 col-center clientes">
+                                    <img class="clientes-logo pt-4" src="../asset/img/logo-oxiquim.jpg" alt="Logo 2">
+                                    <p class="titulo pt-3">OXIQUIM S.A.</p>
+                                    <p class="texto">"Mitigación de gases de formaldehido Planta Resinas Concepción"</p>
+                            </div>
+                            <div class="col-12 col-sm-4 col-center clientes">
+                                    <img class="clientes-logo pt-4" src="../asset/img/logo-oxiquim.jpg" alt="Logo 3">
+                                    <p class="titulo pt-3">OXIQUIM S.A.</p>
+                                    <p class="texto">"Habilitación de estanques de almacenamiento Terminal Maritimo Mejillones"</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="carousel-item">
+                            <div class="row col-12 col-sm-10 col-center">
+                                <div class="col-12 col-sm-4 col-center clientes">
+                                    <img class="clientes-logo pt-4" src="../asset/img/logo.jpg" alt="Logo 4">
+                                    <p class="titulo pt-3">CLIENTE</p>
+                                    <p class="texto">""</p>
+                                </div>
+                                <div class="col-12 col-sm-4 col-center clientes">
+                                        <img class="clientes-logo pt-4" src="../asset/img/logo.jpg" alt="Logo 5">
+                                        <p class="titulo pt-3">CLIENTE</p>
+                                        <p class="texto">""</p>
+                                </div>
+                                <div class="col-12 col-sm-4 col-center clientes">
+                                        <img class="clientes-logo pt-4" src="../asset/img/logo.jpg" alt="Logo 6">
+                                        <p class="titulo pt-3">CLIENTE</p>
+                                        <p class="texto">""</p>
+                                </div>
+                            </div>
+                    </div>                 
+                </div>    
+                <a class="control-prev"  href="#clientes" data-slide="prev">
+                    <span class="control-prev-icon"></span>
+                </a>
+                <a class="control-next" href="#clientes" data-slide="next">
+                    <span class="control-next-icon"></span>
+                </a>
+            </div>
+        <!-- FIN CONTENIDO -->
+   </body>
+   <footer>
+        <!-- PIE DE PAGINA -->
+        <div class="container-fluid mt-1">
+            <div class="row ">
+                <div class="col-12 bgfooter" >
+                    <div class="col-12 col-sm-6 bgfooter footercentrado">
+                        <p class="bgfooter1 pt-2">NBL Asesorias En Proyectos LTDA. <br> Rut : 76.017.428-9 </p>
+                        <p class="bgfooter2"> <!--DIRECCION Los Militares N°5620 Of. 204 <br> Las Condes, Santiago, Chile <br>--> Fono  : 2 2 47 88 245 <br> Email : contacto@nbl.cl</p> 
+                    </div>
+                </div>            
+            </div>
+        </div>
+        <!-- FIN PIE DE PAGINA -->
+   </footer>
+</html>
